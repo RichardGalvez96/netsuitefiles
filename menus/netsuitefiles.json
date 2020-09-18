@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Upload File",
+        "command": "netsuitefiles:upload"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "NetSuite Files",
+          "submenu": [
+            {
+              "label": "Upload",
+              "command": "netsuitefiles:upload"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

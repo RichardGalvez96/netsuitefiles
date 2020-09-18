@@ -1,0 +1,43 @@
+{
+  "name": "netsuitefiles",
+  "main": "./lib/netsuitefiles",
+  "version": "1.0.0",
+  "description": "Upload files in your Netsuite Instance trought a command ( ctrl + alt + O )",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "netsuitefiles:upload"
+  },
+  "repository": "https://github.com/atom/netsuitefiles",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "configSchema": {
+    "Folder": {
+      "type": "string",
+      "default": "",
+      "description": "Enter the Folder ID (Optional)"
+    },
+    "NetsuiteWebService": {
+      "type": "string",
+      "default": "",
+      "description": "Enter the Suitelet URL."
+    },
+    "Email": {
+      "type": "string",
+      "default": "",
+      "description": "Enter the Email."
+    },
+    "Password": {
+      "type": "string",
+      "default": "",
+      "description": "Enter the Password Account."
+    },
+    "AplicationID": {
+      "type": "string",
+      "default": "",
+      "description": "Enter the Aplication ID."
+    }
+  }
+}
