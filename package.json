@@ -1,7 +1,6 @@
 {
   "name": "netsuitefiles",
   "main": "./lib/netsuitefiles",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "version": "1.0.0",
   "description": "Upload files in your Netsuite Instance trought a command ( ctrl + alt + O )",
   "keywords": [],
