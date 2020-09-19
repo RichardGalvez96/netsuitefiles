@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "netsuitefiles:upload"
   },
-  "repository": "https://github.com/atom/netsuitefiles",
+  "repository": "https://github.com/RichardGalvez96/netsuitefiles",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
